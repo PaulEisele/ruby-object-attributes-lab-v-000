@@ -5,7 +5,7 @@ class Person
     @job = job
   end
 
-  def name=(name)
+  def name
     name = name.split
     name = name
   end
