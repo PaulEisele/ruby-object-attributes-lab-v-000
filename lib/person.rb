@@ -21,3 +21,4 @@ class Person
   def job
     "#{@job}".strip
   end
+end
