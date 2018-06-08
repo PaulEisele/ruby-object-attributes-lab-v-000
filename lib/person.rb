@@ -11,5 +11,13 @@ class Person
   end
 
   def name
-    "#{@_name}".strip
+    "#{@name}".strip
+  end
+  def job=(job)
+    job = job.split
+    job = job
+  end
+
+  def job
+    "#{@job}".strip
   end
