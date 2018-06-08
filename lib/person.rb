@@ -13,6 +13,7 @@ class Person
   def name
     "#{@name}".strip
   end
+
   def job=(job)
     job = job.split
     job = job
